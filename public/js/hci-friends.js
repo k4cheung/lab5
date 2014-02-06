@@ -5,6 +5,8 @@ $(document).ready(function() {
 	initializePage();
 })
 
+$("#name").click(listenerFunction);
+
 /*
  * Function that is called when the document is ready.
  */
